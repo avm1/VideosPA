@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="avm1" version="1.0.1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.mooc.tempMV" version="1.0.0">
   <name>Videos Parlamento de Andalucía</name>
   <description>Videos Parlamento de Andalucía</description>
   <author email="a.vilches@parlamento-and.es">Antonio Vilches</author>
