@@ -2,6 +2,7 @@
   <name>Videos Parlamento de Andalucía</name>
   <description>Videos Parlamento de Andalucía</description>
   <author email="a.vilches@parlamento-and.es">Antonio Vilches</author>
+  <platform name="android" />
   <content src="index.html"/>
   
   <preference name="permissions" value="none"/>
@@ -11,8 +12,7 @@
   <preference name="fullscreen" value="true"/>
   <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
-  <preference name="stay-in-webview" value="false"/>
-  <preference name="ios-statusbarstyle" value="black-opaque"/>
+  <preference name="stay-in-webview" value="false"/>  
   <preference name="detect-data-types" value="true"/>
   <preference name="exit-on-suspend" value="false"/>
   <preference name="show-splash-screen-spinner" value="true"/>
@@ -38,12 +38,6 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
-  <icon src="icon.png"/>
-  <icon src="www/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
-  <icon src="www/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
-  <icon src="www/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
-  <icon src="www/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi"/>
-  <icon src="www/icon-48.png" gap:platform="winphone"/>
-  <icon src="www/icon-173-tile.png" gap:platform="winphone" gap:role="background"/>
+  <icon src="icon.png"/>  
   <access origin="*"/>
 </widget>
