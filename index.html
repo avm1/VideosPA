@@ -1,35 +1,21 @@
 <!doctype html>
+<html>
 <head>
     <meta charset="utf-8">	
-    <script type="text/javascript" src="jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="cordova.js"></script>
-	<script type="text/javascript" charset="utf-8" src="video.js"></script>
-	
-
-
+    <script type="text/javascript" src="jquery-1.12.3.min.js"></script>  
+		
     <title>Videos Parlamento de Andalucía</title>
     <meta content="width=device-width; height=device-height;" name="viewport">
 </head>
  
-<body onload="javascript:init()">
-<div class="app">
-    <p><a href="#" onclick="playVideo('http://193.147.254.55:8080/seneca1/0000004695.wmv')">Play File</a><p/>
-</div>
-
-<script type="text/javascript">
-    app.initialize();
-
-    function init()
-    {
-        document.addEventListener("deviceready", console.log('ready'), true);
-    }
-
-    function playVideo(vidUrl) 
-    {
-        window.plugins.videoPlayer.play(vidUrl);
-    }
-</script>
- 
+<body>
+	
+	<video width="320" height="240" controls>	    
+	<source src="http://193.147.254.55:8080/seneca1/0000004689.wmv">
+	Tu navegador no lo soporta
+	</video>
+	
+</body>
 
 
 </html>
