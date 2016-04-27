@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="org.mooc.tempMV" version="1.0.0">
-  <name>Videos Parlamento de andalucía</name>
-  <description>Videos Parlamento de andalucía</description>
+  <name>Videos Parlamento de Andalucía</name>
+  <description>Videos Parlamento de Andalucía</description>
   <author email="a.vilches@parlamento-and.es">Antonio Vilches</author>
   <content src="index.html"/>
   
